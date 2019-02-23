@@ -1,12 +1,18 @@
 package main
 
 import (
+	"./data"
 	"./functions"
 	"fmt"
 	"strings"
 )
 
 func main() {
+	testAllFunctions()
+	data.TestMap()
+}
+
+func testAllFunctions() {
 	functions.Imported()
 	test, _ := functions.GiveMeData()
 	fmt.Println(test)
@@ -15,6 +21,7 @@ func main() {
 	simpleFunction()
 	testStringFunctions()
 	elegantConstantDeclaration()
+	functions.TestPointers()
 }
 
 func simpleFunction() {
@@ -23,7 +30,7 @@ func simpleFunction() {
 	//fmt.Println(b)
 	var x int8 = 5
 	var y int8 = 10
-	fmt.Println("Simple Function: ")
+	fmt.Println("====== Simple Function: ")
 	fmt.Println(x + y)
 }
 
@@ -42,7 +49,7 @@ func basicSyntax() {
 
 func testStringFunctions() {
 	tester := "Hello World"
-	fmt.Println("Testing String functions:")
+	fmt.Println("===== Testing String functions:")
 	fmt.Println(tester)
 	fmt.Println(len(tester))
 	fmt.Println(tester[0:])
