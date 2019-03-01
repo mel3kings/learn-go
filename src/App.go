@@ -10,6 +10,7 @@ import (
 func main() {
 	testAllFunctions()
 	data.TestMap()
+	data.SortEmployeeTest()
 }
 
 func testAllFunctions() {
