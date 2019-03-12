@@ -1,16 +1,17 @@
 package main
 
 import (
-	"./data"
 	"./functions"
 	"fmt"
+	"github.com/snugco/learn-go/src/routines"
 	"strings"
 )
 
 func main() {
-	testAllFunctions()
-	data.TestMap()
-	data.SortEmployeeTest()
+	routines.Spin()
+	//testAllFunctions()
+	//data.TestMap()
+	//data.SortEmployeeTest()
 }
 
 func testAllFunctions() {
