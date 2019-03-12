@@ -9,7 +9,8 @@ import (
 
 func main() {
 	//	routines.Spin()
-	routines.UnidirectionalChannel()
+	//routines.UnidirectionalChannel()
+	routines.WaitGroupTest()
 	//testAllFunctions()
 	//data.TestMap()
 	//data.SortEmployeeTest()
