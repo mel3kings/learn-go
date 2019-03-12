@@ -8,7 +8,8 @@ import (
 )
 
 func main() {
-	routines.Spin()
+	//	routines.Spin()
+	routines.UnidirectionalChannel()
 	//testAllFunctions()
 	//data.TestMap()
 	//data.SortEmployeeTest()
